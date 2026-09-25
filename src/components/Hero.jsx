@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import '../styles/Hero.css'
-import axios from 'axios';
-import { Link, useNavigate } from 'react-router-dom';
+import React from 'react';
+import '../styles/Hero.css';
 import { GeneralContext } from '../context/GeneralContext';
 import Spinner from 'react-bootstrap/Spinner';
 
